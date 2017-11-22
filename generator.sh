@@ -1,6 +1,6 @@
 #!/bin/bash
 c=1
-n=10
+n=$2
 /bin/rm -f tests/*
 while [ $c -le $n ]
 do
