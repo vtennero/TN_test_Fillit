@@ -4,7 +4,7 @@ COLOR='\x1b[38;5;220m'
 END='\x1b[0m'
 source resources/main_tests.sh
 
-sh animation.sh
+sh resources/animation.sh
 
 echo "$COLOR\0TN_TEST // FILLIT$END"
 sleep 1
