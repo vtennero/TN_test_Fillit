@@ -30,6 +30,7 @@ invalid_file_tests()
 	echo "$COLOR\0Invalid grid tests(should display 'error'): $END"
 	run_tests sample_test01
 	run_tests sample_test02
+	run_tests sample_test05
 
 	echo "$COLOR\n[DONE]$END"
 }
